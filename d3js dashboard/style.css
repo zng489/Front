@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#dashboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+#dashboard > div {
+    flex: 1 1 50%;
+    padding: 10px;
+}
+svg {
+    width: 100%;
+    height: 100%;
+}

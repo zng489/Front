@@ -1,0 +1,66 @@
+mkdir my-preact-app
+cd my-preact-app
+
+npm init -y
+
+npm i preact
+
+npm install --save-dev parcel
+
+mkdir src
+touch src/index.js
+touch src/index.html
+
+
+npm init preact
+
+
+
+{
+  "dependencies": {
+    "preact": "^10.24.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.1",
+    "vite": "^5.4.10"
+  }
+}
+
+
+
+// package.json
+{
+  "name": "modern-preact-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.24.3"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.9.1",
+    "vite": "^5.4.10"
+  }
+}
+npm install preact
+npm install -D @preact/preset-vite vite
+npm install d3
+
+
+npm run dev
+
+
+
+
+
+import { render, h } from "preact";
+
+const App = () => {
+  return <h1>Hello World</h1>;
+};
+
+render(<App />, document.getElementById("app"));

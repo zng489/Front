@@ -1,0 +1,15 @@
+// Define color variables
+$line-color: steelblue;
+$dot-fill-color: orange;
+
+// Styling for the line
+.line {
+  fill: none;
+  stroke: $line-color;
+  stroke-width: 2;
+}
+
+// Styling for the dots
+.dot {
+  fill: $dot-fill-color;
+}

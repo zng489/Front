@@ -1,0 +1,22 @@
+{
+  "name": "modern-preact-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "preact": "^10.24.3",
+    "react-globe.gl": "^2.27.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@preact/preset-vite": "^2.9.1",
+    "vite": "^5.4.10"
+  }
+}

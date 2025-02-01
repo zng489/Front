@@ -1,0 +1,12 @@
+// Define color variables
+$bar-fill-color: steelblue;
+$bar-hover-color: orange;
+
+// Styling for .bar class
+.bar {
+  fill: $bar-fill-color;
+
+  &:hover {
+    fill: $bar-hover-color;
+  }
+}

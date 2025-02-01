@@ -1,0 +1,29 @@
+node server.js
+
+
+
+4. Run a Local Web Server
+Since D3.js requires a web server to serve local files (to avoid issues like CORS when loading data), you'll need to run a simple server. Here's how you can do it:
+
+Using Python (if you have Python installed):
+
+If you have Python 3 installed, you can start a server by running:
+bash
+Copy code
+python3 -m http.server
+If you have Python 2, use:
+bash
+Copy code
+python -m SimpleHTTPServer
+This will serve the files in your directory at http://localhost:8000.
+Using Node.js:
+
+If you have Node.js installed, you can install a simple HTTP server package globally:
+bash
+Copy code
+npm install -g http-server
+Then, run the server:
+bash
+Copy code
+http-server
+This will serve your files at http://localhost:8080 by default.
